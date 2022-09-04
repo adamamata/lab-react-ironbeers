@@ -6,7 +6,7 @@ import newBeerImg from '../assets/new-beer.png';
 
 function Home() {
   return (
-    <div className='Home'>
+    <div className='Page'>
 
             <img src={beersImg} alt='beersImg'/>
             <Link to='/beers'><h2>All Beers</h2></Link>
